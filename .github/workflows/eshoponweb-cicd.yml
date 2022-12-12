@@ -6,9 +6,9 @@ on: [push, workflow_dispatch]
 #Environment variables. https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshopeonweb-lab
-  LOCATION: eastus
+  LOCATION: "eastus"
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: fd3742b4-aed1-41e7-9d06-c6261c0223fb
+  SUBSCRIPTION-ID: "fd3742b4-aed1-41e7-9d06-c6261c0223fb"
   WEBAPP-NAME: az400-webapp-lab
 
 
